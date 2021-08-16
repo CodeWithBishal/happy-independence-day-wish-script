@@ -14,6 +14,7 @@ $url="https://example.com/happy-independence-day";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <link rel="canonical" href="https://example.com/happy-independence-day">
     <title>Happy Independence Day - <?php echo $name; ?>
     </title>
