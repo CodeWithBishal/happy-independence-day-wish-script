@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <?php 
 $name_share=$_GET['name'];
 $name = ucwords(str_replace("_"," ",$name_share));
