@@ -1,0 +1,48 @@
+.name{
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 0 #FF8F1C, 0 2px 0 #FF8F1C,
+             0 3px 0 #FF8F1C, 0 4px 0 #FF8F1C,
+             0 5px 0 #509E2F, 0 6px 0 #509E2F,
+             0 7px 0 #509E2F, 0 8px 0 #509E2F,
+             0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.wish{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#container{
+    top: 15%;
+}
+
+body{
+    height: 100vh !important;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("img/Indian-Flag.jpg");
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.bounce{
+    animation: bounce 500ms infinite alternate;
+}
+
+@keyframes bounce {
+from {
+  transform: translateY(0px);
+}
+to {
+transform: translateY(-15px);
+}
+}
+
+.Saffron{
+    color: #FF8F1C;
+}
+.green{
+    color: #509E2F;
+}
